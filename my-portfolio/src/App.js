@@ -21,19 +21,19 @@ function App() {
 
       {/* Main content */}
       <div id = "main-content-container" className = " flex flex-col justify-center items-center absolute left-1/2 transform -translate-x-1/2 mt-16 w-full">
-        <div id="header-main" className=" w-1/2 items-center justify-center p-4 
+        <div id="header-main" className=" w-3/4 max-w-3/4  items-center justify-center p-4 
                               bg-[#3f3f3f] rounded-lg  bg-opacity-30 ">
-          <div id = "header-container" className = "flex flex-row bg-[#282828] rounded-lg p-5 shadow-2xl border-2 border-gray-700">
+          <div id = "header-container" className = " max-h-[50vh] overflow-hidden flex flex-row bg-[#282828] rounded-lg p-5 shadow-2xl border-2 border-gray-700">
             <div className = "text-white">
-              <h1 className = "text-2xl">Hi, my name is</h1>
+              <h1 className = "text-2xl">Hi i'm</h1>
               <h1 className = "text-5xl text-green-200 font-extrabold">Rahsaan Young Jones</h1>
               <h1 className = "text-3xl text-green-400 font-bold" >Front-End Development | Cybersecurity</h1>
               <p className = "font-bold3">I am a computer science graduate from UC Merced with experience building user-friendly front-end interfaces and 
                                           a focus on cybersecurity. </p>
             </div>
-            <div className = "ml-4 p-0.5 bg-[#121212] h-min rounded-full shadow-lg">
+            <div className = "relative left-36 -top-20 bg-[#121212] h-min rounded-full shadow-lg">
               <img id = "" src = "https://static.vecteezy.com/system/resources/thumbnails/004/511/281/small_2x/default-avatar-photo-placeholder-profile-picture-vector.jpg" 
-                className = " w-full rounded-full" ></img>
+                className = " w-[950px] rounded-full" ></img>
             </div>
           </div>
           <div className="flex items-center space-x-4 mt-8">
@@ -74,10 +74,10 @@ function App() {
         </div>
 
         {/* Expereince section */}
-        <h1 className = "text-center font-bold text-white text-5xl mt-8">Portfolio</h1>
+        <h1 className = "text-center font-bold text-white text-5xl mt-8">Skills & Certificates</h1>
 
-        <div className = " w-11/12">
-          <div className = "bg-[#3f3f3f] rounded-lg m-10 bg-opacity-30 p-4 mt-16 flex justify-between gap-4">
+        <div className = " w-11/12 ">
+          <div className = "bg-[#3f3f3f] rounded-lg m-10 bg-opacity-30 p-4 mt-16 flex justify-between">
           {/* react */}
             <div className = "bg-[#282828] p-7 rounded-lg border-gray-700 border-2 shadow-2xl h-full">
                 <div className = "flex text-center items-center">
@@ -91,11 +91,11 @@ function App() {
                       <h1 className = "text-white font-bold text-xl">Stat Wizard</h1>
                       <img id = "" src = "" className = "border-2 border-gray-100 w-44 h-44"></img>
                     </div>
-                    <div className = "ml-4">
+                    <div className = "ml-3">
                       <h1 className = "text-white font-bold text-xl">PC Pricer</h1>
                       <img id = "" src = "" className = "border-2 border-gray-100 w-44 h-44"></img>
                     </div>
-                    <div className = "ml-4">
+                    <div className = "ml-3">
                       <h1 className = "text-white font-bold text-xl">Dine Board</h1>
                       <img id = "" src = "" className = "border-2 border-gray-100 w-44 h-44"></img>
                     </div>
@@ -103,7 +103,6 @@ function App() {
             </div>
 
             {/* cyber sec */}
-            <div></div>
             <div className = "bg-[#282828] p-7 rounded-lg border-gray-700 border-2 shadow-2xl h-full">
                 <div className = "flex text-center items-center">
                   <h1 className = "text-white font-extrabold text-3xl">
@@ -118,14 +117,16 @@ function App() {
             </div>
 
             {/* Networks */}
-            <div className = "bg-[#282828] p-7 rounded-lg border-gray-700 border-2 shadow-2xl  h-full">
-                <div className = "flex text-center items-center">
-                  <h1 className = "text-white font-extrabold text-3xl">Networks</h1>
+
+            <div className = "bg-[#282828] p-7 rounded-lg border-gray-700 border-2 shadow-2xl  h-full ">
+                <div className = "flex justify-center text-center items-center">
+                  <h1 className = "text-white font-extrabold text-3xl">Networking</h1>
                   <span className = "text-white text-5xl ml-4">
                     <FaCloud/>
                   </span>
                 </div>
             </div>
+
           </div>
         </div>
       </div>
